@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,CAAC;EACb,KAAK,EAAE,sBAAsB;CAC7B",
+    "sources": [
+        "../src/rates-page/scss/rates.scss"
+    ],
+    "names": [],
+    "file": "rates.css"
+}

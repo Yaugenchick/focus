@@ -1,0 +1,12 @@
+.navigation nav ul {
+  display: flex;
+}
+
+.navigation nav ul li {
+  list-style: none;
+}
+
+.navigation nav ul li a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=nav.css.map */

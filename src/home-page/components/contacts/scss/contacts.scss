@@ -1,0 +1,262 @@
+
+	.contacts {
+		background: #e5e5e5;
+		.container {
+			width: 90%;
+			.contacts-wraper {
+				display: flex;
+				justify-content: space-around;
+				.contacts-networks {
+					.contacts-networks-wraper {
+						margin: 50px 0 0 0;
+						.contacts-networks-title {
+							margin: 0 0 50px 0;
+							.contacts-networks-header {
+								font-weight: normal;
+								font-size: 20px;
+								color: rgba(0, 0, 0, 0.9);
+							}
+						}
+						.reiting {
+							.reiting-title {
+								font-weight: 500;
+								font-size: 13px;
+								color: rgba(0, 0, 0, 0.5);
+							}
+						}
+						.contacts-networks-block {
+							margin: 50px 0 0 0;
+						}
+						.btn-site-map {
+							margin: 50px 0 0 0;
+							.btn-contacts {
+								border: none;
+								.contacts-arrow {
+									margin: 0 0 0 5px;
+								}
+							}
+						}
+						.btn-politic-confidence {
+							margin: 40px 0 0 0;
+							.btn-contacts {
+								border: none;
+								.contacts-arrow {
+									margin: 0 0 0 5px;
+								}
+							}
+						}
+					}
+				}
+				.contacts-office {
+					margin: 80px 0 0 0;
+					width: 610px;
+					.contacts-office-title {
+						padding: 0 0 20px 0;
+						border-bottom: 1px solid #000;
+						.contacts-office-header {
+							font-weight: normal;
+							font-size: 15px;
+							color: rgba(0, 0, 0, 0.5);
+						}
+					}
+					.contacts-office-wraper {
+						display: grid;
+						grid-template-columns: repeat(3, 1fr);
+						.contacts-minsk {
+							grid-column: 1/2;
+							.town {
+								font-weight: normal;
+								font-size: 14px;
+								text-transform: uppercase;
+								color: rgba(0, 0, 0, 0.75);
+							}
+							.header-capital {
+								margin: 20px 0 0 0;
+							}
+							.phone {
+								margin: 10px;
+								display: block;
+								font-weight: 300;
+								font-size: 13px;
+								color: rgba(0, 0, 0, 0.8);
+							}
+							.adress {
+								margin: 20px 0 0 0;
+								.adress-title {
+									font-weight: 700;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.75);
+								}
+								.adress-street {
+									font-weight: 300;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								}
+							}
+							.contacts-RF {
+								margin: 20px 0 0 0;
+								.adress-title {
+									font-weight: 500;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.75);
+								}
+								.phone {
+									font-weight: 300;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								}
+							}
+							.contacts-mail {
+								.footer-mail {
+									font-weight: normal;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								}
+							}
+						}
+						.contacts-west-region {
+							grid-column: 2/3;
+							.town {
+								font-weight: normal;
+								font-size: 14px;
+								text-transform: uppercase;
+								color: rgba(0, 0, 0, 0.75);
+							}
+							.header-mogilev {
+								margin: 20px 0 0 0;
+							}
+							.header-brest {
+								margin: 20px 0 0 0;
+							}
+							.header-vitebsk {
+								margin: 20px 0 0 0;
+							}
+							.adress {
+								.adress-title {
+									font-weight: 500;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.75);
+								}
+								.adress-street {
+									font-weight: 300;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								}
+							}
+							.contacts-mail {
+								.footer-mail {
+									font-weight: normal;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								}
+							}
+						}
+						.contacts-east-region {
+							grid-column: 3/4;
+							.town {
+								font-weight: normal;
+								font-size: 14px;
+								text-transform: uppercase;
+								color: rgba(0, 0, 0, 0.75);
+							}
+							.header-hrodno {
+								margin: 20px 0 0 0;
+							}
+							.header-gomel {
+								margin: 20px 0 0 0;
+							}
+							.adress {
+								.adress-title {
+									font-weight: 500;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.75);
+								}
+								.adress-street {
+									font-weight: 300;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								}
+							}
+							.contacts-mail {
+								.footer-mail {
+									font-weight: normal;
+									font-size: 13px;
+									color: rgba(0, 0, 0, 0.8);
+								} 
+							} 
+						}
+					}
+				}
+				.contacts-time {
+					margin: 80px 0 0 0px;
+					.contacts-time-title {
+						padding: 0 0 20px 0;
+						border-bottom: 1px solid #000;
+						.contacts-time-header {
+							font-weight: normal;
+							font-size: 15px;
+							color: rgba(0, 0, 0, 0.5);
+						}
+					}
+					.contacts-time-wraper {
+						.contacts-time-visitors {
+							margin: 20px 0 0 0;
+						}
+						.contacts-time-calls {
+							margin: 20px 0 0 0;
+						}
+						.contacts-time-consultate {
+							margin: 20px 0 0 0;
+						}
+						.time-title {
+							font-weight: 500;
+							font-size: 13px;
+							color: rgba(0, 0, 0, 0.75);
+						}
+						.time-text {
+							font-weight: 300;
+							font-size: 13px;
+							color: rgba(0, 0, 0, 0.8);
+						}
+					}
+				}
+			}
+		}
+	}
+
+@media (max-width: 1024px) {
+	.contacts {
+		background: #e5e5e5;
+		.container {
+			width: 90%;
+			.contacts-wraper {
+				display: flex;
+				flex-direction: column;
+				.contacts-networks {
+					.contacts-networks-wraper {
+						margin: 20px 0 0 0;
+						.contacts-networks-title {
+							margin: 0 0 20px 0;
+						}
+						.contacts-networks-block {
+							margin: 20px 0 0 0;
+						}
+						.btn-site-map {
+							margin: 20px 0 0 0;
+						}
+						.btn-politic-confidence {
+							margin: 20px 0 0 0;
+						}
+					}
+				}
+				.contacts-office {
+					margin: 40px 0 0 0;
+					width: 100%;
+				}
+				.contacts-time {
+
+				}
+			}
+		}
+	}
+}

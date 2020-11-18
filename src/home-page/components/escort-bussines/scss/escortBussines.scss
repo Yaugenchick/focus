@@ -1,0 +1,123 @@
+
+	.escort {
+		background: #e5e5e5;
+		padding: 40px 0 40px 0;
+		.container {
+			.wraper-escort {
+				background: #fff;
+    			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    			display: grid;
+    			grid-auto-rows: auto;
+				grid-auto-columns: 1fr 1fr;
+				.escort-content {
+					grid-row: 1/2;
+					grid-column: 1/2;
+					justify-self: end;
+					margin: 50px 0 0 0;
+					.escort-title {
+						font-weight: normal;
+    					font-size: 28px;
+    					line-height: 40px;
+					}
+					.escort-paragraph {
+						margin: 30px 0 0 0;
+    					font-weight: 300;
+    					font-size: 15px;
+    					line-height: 25px;
+    					color: rgba(0, 0, 0, 0.8);
+					}
+				}
+				.escort-images {
+					grid-row: 1/2;
+					grid-column: 2/3;
+					justify-self: end;
+					height: 645px;
+					width: 500px;
+					background: url(../img/escort.jpg);
+					background-size: cover;
+				}
+			}
+		}
+	}
+@media (max-width: 1024px) {
+	.escort {
+		background: #e5e5e5;
+		padding: 40px 0 40px 0;
+		.container {
+			width: 90%;
+			.wraper-escort {
+				background: #fff;
+    			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    			display: grid;
+    			grid-auto-rows: auto;
+				grid-auto-columns: 1fr 1fr 1fr;
+				.escort-content {
+					grid-row: 1/2;
+					grid-column: 1/3;
+					justify-self: center;
+					margin: 60px 0 0 0;
+					.escort-title {
+						font-weight: normal;
+    					font-size: 24px;
+    					line-height: 24px;
+					}
+					.escort-paragraph {
+						margin: 20px 0 0 0;
+    					font-weight: 300;
+    					font-size: 15px;
+    					line-height: 20px;
+    					color: rgba(0, 0, 0, 0.8);
+					}
+				}
+				.escort-images {
+					grid-row: 1/2;
+					grid-column: 3/4;
+					height: 520px;
+					width: 350px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.escort {
+		background: #e5e5e5;
+		padding: 40px 0 40px 0;
+		.container {
+			width: 90%;
+			.wraper-escort {
+				background: #fff;
+    			box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    			display: grid;
+    			grid-auto-rows: auto;
+				grid-auto-columns: 1fr 1fr 180px;
+				.escort-content {
+					grid-row: 1/2;
+					grid-column: 1/3;
+					margin: 40px 0 0 0;
+					.escort-title {
+						font-weight: normal;
+    					font-size: 20px;
+						line-height: 20px;
+						text-align: center;
+					}
+					.escort-paragraph {
+						margin: 20px 0 0 0;
+    					font-weight: 300;
+    					font-size: 15px;
+						line-height: 20px;
+						text-align: left;
+						padding: 0 0 0 30px;
+    					color: rgba(0, 0, 0, 0.8);
+					}
+				}
+				.escort-images {
+					grid-row: 1/2;
+					grid-column: 3/4;
+					height: 480px;
+					width: 180px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,88 @@
+
+	.cost-services {
+		background: #e5e5e5;
+		padding: 50px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			.cost-services-title {
+				.cost-services-header {
+					font-weight: normal;
+					font-size: 28px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 30px 0 0 0;
+				width: 670px;
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 25px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 30px 0 0 0;
+			}
+		}
+	}
+
+@media (max-width: 1024px) {
+	.cost-services {
+		background: #e5e5e5;
+		padding: 50px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			width: 90%;
+			.cost-services-title {
+				.cost-services-header {
+					font-weight: normal;
+					font-size: 28px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 30px 0 0 0;
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 25px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 30px 0 0 0;
+			}
+		}
+	}
+}
+@media (max-width: 768px) {
+	.cost-services {
+		background: #e5e5e5;
+		padding: 0 0 30px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			width: 90%;
+			.cost-services-title {
+				.cost-services-header {
+					font-weight: normal;
+					font-size: 28px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 30px 0 0 0;
+				
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 25px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 30px 0 0 0;
+			}
+		}
+	}	
+}
