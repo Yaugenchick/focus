@@ -15,7 +15,7 @@ export class DirectionsSlider extends React.Component {
 	}
 	componentDidMount() {
 		this.setState(() => ({ isLoading: true }))
-		fetch("http://localhost:3000/data/directions.json")
+		fetch("http://localhost:5000/data/directions.json")
 			.then((response) => response.json())
 			.then((data) => this.setState(() => ({
 				slides: data,
