@@ -17,7 +17,7 @@
 					display: grid;
 					grid-template-columns: repeat(2, 1fr);
 					grid-template-rows: 1fr 50px;
-					column-gap: 30px;
+					column-gap: 49px;
 					.slide1 {
 						grid-row: 1/2;
 						grid-column: 1/2;
@@ -132,7 +132,7 @@
 						grid-template-rows: 80px 40px 40px 220px 20px;
 						box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
 						padding: 0 0 70px 0;
-						width: 394px;
+						width: 450px;
 						.position {
 							grid-row: 2/3;
 							align-self: end;
@@ -151,7 +151,7 @@
 						}
 						.reviews-text {
 							grid-row: 4/5;
-							width: 320px;
+							width: 370px;
 							overflow-y: auto;;
 							line-height: 25px;
 							font-weight: 300;

@@ -44,7 +44,7 @@ export class MainSlider extends React.Component {
                         style={{background: `url(${item.url})`,
                                 backgroundSize: "cover",
                                 backgroundRepeat: "no-repeat"}}>
-                     
+                    
                         <div className="main-title">
                             <h3 className="main-header">{item.title}</h3>
                         </div>
