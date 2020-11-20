@@ -2,7 +2,7 @@
   "name": "focus",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yaugenchick.github.io/focus/",
+  "homepage": "https://yaugenchick.github.io/focus",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.2",
@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predploy" : "npm run build" , 
-    "deploy" : "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
