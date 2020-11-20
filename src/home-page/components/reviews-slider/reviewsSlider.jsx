@@ -16,7 +16,7 @@ export class ReviewsSlider extends React.Component {
     }
     componentDidMount() {
         this.setState(() => ({isLoading: true}))
-        fetch("http://localhost:5000/data/reviews.json")
+        fetch("http://localhost:3000/data/reviews.json")
             .then((response) => response.json())
             .then((data) => (this.setState({
                 reviewsContent: data,

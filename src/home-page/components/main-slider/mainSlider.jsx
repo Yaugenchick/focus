@@ -15,7 +15,7 @@ export class MainSlider extends React.Component {
     }
     componentDidMount() {
         this.setState(() => ({isLoading: true}))
-        const url = "http://localhost:5000/data/main.json";
+        const url = "http://localhost:3000/data/main.json";
         fetch(url)
             .then((response) => response.json())
             .then((data) => this.setState(() => ({
