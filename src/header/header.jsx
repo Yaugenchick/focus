@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { ChangeLanguage } from './langTheme';
 import "./scss/header.scss";
 import a1 from "./img/a1.png";
 import eye from "./img/eye.png";
@@ -9,35 +10,15 @@ import whatsapp from "./img/whatsapp.png";
 export class Header extends React.Component {
     constructor () {
         super();
-        this.handleClickChangeLang = this.handleClickChangeLang.bind(this)
-        this.state = {
-            changeLang: true
-        }
-    }
-    handleClickChangeLang () {
-        this.setState((prewState) => ({
-            changeLang: !prewState.changeLang
-        }))
     }
     render() {
-        let {changeLang} = this.state;
+      
         return (
             <Fragment>
                 <div className="header">
                     <div className="container">
                         <div className="header-wraper">
-                            <div className="change-language">
-                                {changeLang ? (
-                                    <span className="language-title-ru">
-                                        <p className="lang-ru">Язык русский</p>
-                                    </span> 
-                                ):(
-                                    <span className="language-title-eng">
-                                        <p className="lang-eng">Lang english</p>
-                                    </span> 
-                                )}
-                                <button className="btn-arrow-lang" onClick={this.handleClickChangeLang}>&#957;</button>
-                            </div>
+                            <ChangeLanguage/>
                             <div className="eye">
                                 <img src={eye} alt="" />
                             </div>

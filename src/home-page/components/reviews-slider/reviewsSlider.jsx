@@ -1,43 +1,38 @@
 import './scss/reviewsSlider.scss';
 
 import React, { Fragment } from 'react';
+import { ReviewsData } from './data/reviewsData';
 import { Dots } from './dots';
 
 export class ReviewsSlider extends React.Component {
     constructor() {
-        super()
+        super();
         this.prewSlide = this.prewSlide.bind(this);
         this.nextSlide = this.nextSlide.bind(this);
         this.state = {
             reviewsContent: [],
-            index: 0,
-            isLoading: false
+            index: 0
         }
     }
     componentDidMount() {
-        this.setState(() => ({isLoading: true}))
-        fetch("http://localhost:3000/data/reviews.json")
-            .then((response) => response.json())
-            .then((data) => (this.setState({
-                reviewsContent: data,
-                isLoading: false
-            })))
-            .catch((error) => console.log(error));
-    };
+        this.setState(() => ({
+            reviewsContent: ReviewsData
+        }))
+    }
     nextSlide() {
         let { reviewsContent, index } = this.state,
             slide = index === reviewsContent.length - 1 ? index = 0 : ++index;
         this.setState({
             index: slide
         });
-    };
+    }
     prewSlide() {
         let { reviewsContent, index } = this.state,
             slide = index === 0 ? index = reviewsContent.length - 1 : --index;
         this.setState({
             index: slide
         });
-    };
+    }
     render() {
         let { reviewsContent, index, isLoading } = this.state;
         return (

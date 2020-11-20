@@ -1,28 +1,21 @@
-import React, { Fragment } from 'react';
-
+import React from 'react';
+import { DataMain } from './data/dataMain';
 import './scss/mainSlider.scss';
 
 export class MainSlider extends React.Component {
     constructor() {
-        super()
+        super();
         this.nextSlide = this.nextSlide.bind(this)
         this.prewSlide = this.prewSlide.bind(this)
         this.state = {
             mainContent: [],
             activeIndex: 0,
-            isLoading: false
         }
     }
     componentDidMount() {
-        this.setState(() => ({isLoading: true}))
-        const url = "http://localhost:3000/data/main.json";
-        fetch(url)
-            .then((response) => response.json())
-            .then((data) => this.setState(() => ({
-                mainContent: data,
-                isLoading: false
-            })))
-            .catch((error) => console.log(error))
+        this.setState(() => ({
+            mainContent: DataMain
+        }))
     }
     setSlide(slide) {
         this.setState(() => ({

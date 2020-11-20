@@ -1,6 +1,7 @@
 import './scss/directionsSlider.scss';
 
 import React from 'react';
+import { DirectionsData } from './data/directionsData';
 
 export class DirectionsSlider extends React.Component {
 	constructor() {
@@ -9,20 +10,13 @@ export class DirectionsSlider extends React.Component {
 		this.prewSlide = this.prewSlide.bind(this)
 		this.state = {
 			index: 0,
-			slides: [],
-			isLoading: false
+			slides: []
 		}
 	}
 	componentDidMount() {
-		this.setState(() => ({ isLoading: true }))
-		fetch("http://localhost:3000/data/directions.json")
-			.then((response) => response.json())
-			.then((data) => this.setState(() => ({
-				slides: data,
-				isLoading: false
-			})))
-			.catch((error) => console.log(error))
-
+		this.setState(() => ({
+			slides: DirectionsData
+		}))
 	}
 	setSlide(slide) {
 		this.setState(() => ({ index: slide }))
