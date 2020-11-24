@@ -1,11 +1,12 @@
 import './scss/directionsSlider.scss';
 
 import React from 'react';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { DirectionsData } from './data/directionsData';
 
 export class DirectionsSlider extends React.Component {
 	constructor() {
-		super()
+		super();
 		this.nextSlide = this.nextSlide.bind(this)
 		this.prewSlide = this.prewSlide.bind(this)
 		this.state = {
@@ -32,23 +33,23 @@ export class DirectionsSlider extends React.Component {
 		this.setSlide(slide);
 	}
 	render() {
-		let { slides, index, isLoading } = this.state
+		let { slides, index } = this.state
 		return (
 			<div className="directions-slider">
 				<div className="container">
 					<div className="directions-slider-wraper">
-						{isLoading ? <p className="loading">...Loading</p> :
-							slides.map((item, slide) => (
-								(slide === index) ?
-									<div className="directions-slides"
-										key={item.id}
-										style={{
-											background: `url(${item.url})`,
-											backgroundSize: "cover",
-											backgroundRepeat: "no-repeat"
-										}}>
-									</div> : null
-							))}
+						{slides.map((item, slide) => (
+							(slide === index) ?
+								<div className="directions-slides"
+									key={item.id}
+									style={{
+										background: `url(${item.url})`,
+										backgroundSize: "cover",
+										backgroundRepeat: "no-repeat"
+									}}>
+								</div>
+								: null
+						))}
 					</div>
 				</div>
 				<button className="arrow arrow-directions-next" onClick={this.nextSlide}>&rsaquo;</button>
