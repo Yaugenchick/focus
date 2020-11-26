@@ -7,7 +7,7 @@ export const DirectionsListHomePage = ({children}) => {
 			{children.map((item) => (
 				<div className="item-directions" key={item.id}>
 					<div className="item-directions-title">
-					<div className="label-directions">{item.label}</div>
+					<div className="label-directions"><p>{item.label}</p></div>
 					</div>
 					<div className="wraper-ico-directions">
 						<img src={item.src} alt={item.alt} className="ico-directions" />

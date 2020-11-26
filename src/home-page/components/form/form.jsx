@@ -52,21 +52,21 @@ export class Form extends React.Component {
                 <form name="form" onSubmit={this.submitForm}>
                     <div className="form-wraper">
                         <div className="form-name">
-                            <div className="form-title">Ваше имя</div>
+                            <div className="form-title"><h3>Ваше имя</h3></div>
                             <input name="surname"
                                 value={surname}
                                 onChange={this.changeInput}
                                 placeholder="Ваше имя" />
                         </div>
                         <div className="form-phone">
-                            <div className="form-title">Телефон для связи</div>
+                            <div className="form-title"><h3>Телефон для связи</h3></div>
                             <input name="phone"
                                 value={phone}
                                 onChange={this.changeInput}
                                 placeholder="+375(XX) XXX-XX-XX" />
                         </div>
-                        <div className="form-text-confidence">
-                            Нажимая на кнопку «Получить консультацию», вы соглашаетесь с условиями&emsp;
+                        <div className="form-text-confidence"><p>
+                            Нажимая на кнопку «Получить консультацию», вы соглашаетесь с условиями&emsp;</p>
                             <a className="form-reference" href="#">Политики конфиденциальности</a>
                         </div>
                         <div className="form-submit-button">

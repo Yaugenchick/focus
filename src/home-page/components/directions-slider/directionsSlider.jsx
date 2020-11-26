@@ -1,7 +1,6 @@
 import './scss/directionsSlider.scss';
 
 import React from 'react';
-import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { DirectionsData } from './data/directionsData';
 
 export class DirectionsSlider extends React.Component {

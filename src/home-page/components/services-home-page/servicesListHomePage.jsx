@@ -17,7 +17,7 @@ export const ServicesListHomePage = ({children}) => {
 					(item.id === 5) ? <div className="services-item-element-home-page" style={{background: " #DEC377"}}></div>:
 					(item.id === 6) ? <div className="services-item-element-home-page" style={{background: " #DEC377"}}></div>:
 					null}
-					<div className="services-item-label">{item.label}</div>
+					<div className="services-item-label"><p>{item.label}</p></div>
 					<button className="btn-item btn-item-services-home-page">{item.button}</button>
 				</div>
 			))}
