@@ -33,8 +33,6 @@ export class Form extends React.Component {
             id: 0,
             result
         })))
-        
-       
     }
     changeInput(event) {
         let { name, value } = event.target
