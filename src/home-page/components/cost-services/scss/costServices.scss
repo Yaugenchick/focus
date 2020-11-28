@@ -74,6 +74,7 @@
 				margin: 30px 0 0 0;
 				
 				.cost-services-paragraph {
+				
 					font-weight: 300;
 					font-size: 15px;
 					line-height: 25px;
@@ -82,6 +83,129 @@
 			}
 			.cost-services-btn {
 				margin: 30px 0 0 0;
+			}
+		}
+	}	
+}
+@media (max-width: 575.98px) {
+	.cost-services {
+		background: #e5e5e5;
+		padding: 30px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			width: 90%;
+			.cost-services-title {
+				.cost-services-header {
+					font-weight: normal;
+					font-size: 25px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 30px 0 0 0;
+				width: 516.59px;
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 25px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 30px 0 0 0;
+			}
+		}
+	}	
+}
+@media (max-width: 425px) {
+	.cost-services {
+		background: #e5e5e5;
+		padding: 30px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			width: 95%;
+			.cost-services-title {
+				.cost-services-header {
+					text-align: center;
+					font-weight: normal;
+					font-size: 22px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 30px 0 0 0;
+				width: 403px;
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 25px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 30px 0 0 0;
+			}
+		}
+	}	
+}
+@media (max-width: 375px) {
+	.cost-services {
+		background: #e5e5e5;
+		padding: 20px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			width: 95%;
+			.cost-services-title {
+				.cost-services-header {
+					text-align: center;
+					font-weight: normal;
+					font-size: 22px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 20px 0 0 0;
+				width: 355px;
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 20px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 20px 0 0 0;
+			}
+		}
+	}	
+}
+@media (max-width: 320px) {
+	.cost-services {
+		background: #e5e5e5;
+		padding: 20px 0;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+		.container {
+			width: 95%;
+			.cost-services-title {
+				.cost-services-header {
+					text-align: center;
+					font-weight: normal;
+					font-size: 22px;
+					color: rgba(0, 0, 0, 0.9);
+				}
+			}
+			.cost-services-content {
+				margin: 20px 0 0 0;
+				width: 303px;
+				.cost-services-paragraph {
+					font-weight: 300;
+					font-size: 15px;
+					line-height: 20px;
+					color: rgba(0, 0, 0, 0.8);
+				}
+			}
+			.cost-services-btn {
+				margin: 20px 0 0 0;
 			}
 		}
 	}	

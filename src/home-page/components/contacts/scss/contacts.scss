@@ -253,8 +253,78 @@
 					margin: 40px 0 0 0;
 					width: 100%;
 				}
+			}
+		}
+	}
+}
+@media (max-width: 575.98px) {
+	.contacts {
+		background: #e5e5e5;
+		.container {
+			width: 95%;
+			.contacts-wraper {
+				display: flex;
+				flex-direction: column;
+				.contacts-networks {
+					.contacts-networks-wraper {
+						margin: 20px 0 0 0;
+						.contacts-networks-title {
+							margin: 0 0 20px 0;
+						}
+						.contacts-networks-block {
+							margin: 20px 0 0 0;
+						}
+						.btn-site-map {
+							margin: 20px 0 0 0;
+						}
+						.btn-politic-confidence {
+							margin: 20px 0 0 0;
+						}
+					}
+				}
+				.contacts-office {
+					margin: 40px 0 0 0;
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 425px) {
+	.contacts {
+		background: #e5e5e5;
+		.container {
+			width: 95%;
+			.contacts-wraper {
+				display: flex;
+				flex-direction: column;
+				.contacts-networks {
+					.contacts-networks-wraper {
+						margin: 20px 0 0 0;
+						.contacts-networks-title {
+							margin: 0 0 20px 0;
+						}
+						.contacts-networks-block {
+							margin: 20px 0 0 0;
+						}
+						.btn-site-map {
+							margin: 20px 0 0 0;
+						}
+						.btn-politic-confidence {
+							margin: 20px 0 0 0;
+						}
+					}
+				}
+				.contacts-office {
+					margin: 20px 0 0 0;
+					width: 100%;
+					.contacts-office-wraper {
+						display: flex;
+						flex-direction: column;
+					}
+				}
 				.contacts-time {
-
+					margin: 20px 0 0 0px;
 				}
 			}
 		}
