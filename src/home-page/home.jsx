@@ -21,13 +21,13 @@ import { BgPancel } from './components/bg-pancel/bgPancel';
 export const Home = () => {
 	return(
 		<Fragment>
-			{/*<MainSlider/>*/}
+			<MainSlider/>
 			<AboutProtection/>
 			<EscortBussines/>
 			<DirctionsHomePage/>
 			<BlockDirectionsContent/>
-			{/*<DirectionsSlider/>
-			<ReviewsSlider/>*/}
+			<DirectionsSlider/>
+			{/*<ReviewsSlider/>*/}
 			<PartnersContent/>
 			<Prime/>
 			<BgPancel/>
