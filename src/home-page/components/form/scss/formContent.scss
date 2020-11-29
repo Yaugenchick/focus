@@ -178,3 +178,129 @@
 		}
 	}
 }
+@media (max-width: 992px) {
+	.form-content {
+		padding: 0 0 50px 0;
+		.container {
+			.wraper-form-content {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 50px 1fr 1fr 1fr;
+				.form-content-title {
+					margin: 0 auto;
+				}
+				.form-content-block {
+					margin: 0 auto 50px auto;
+					.form-content-item:nth-child(1), .form-content-item:nth-child(2) {
+						.form-content-block-text {
+							width: 500px;
+						}
+					}
+					.form-content-item:nth-child(3) {
+						.form-content-block-text {
+							width: 600px;
+						}
+					}
+				}
+				.form-wraper {
+					width: 70%;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 708px) {
+	.form-content {
+		padding: 0 0 50px 0;
+		.container {
+			.wraper-form-content {
+				display: grid;
+				grid-template-columns: 1fr;
+				grid-template-rows: 50px 1fr 1fr 1fr;
+				.form-content-title {
+					margin: 0 auto;
+				}
+				.form-content-block {
+					margin: 0 auto 50px auto;
+					.form-content-item:nth-child(1), .form-content-item:nth-child(2) {
+						.form-content-block-text {
+							width: 400px;
+						}
+					}
+					.form-content-item:nth-child(3) {
+						.form-content-block-text {
+							width: 500px;
+						}
+					}
+				}
+				.form-wraper {
+					width: 100%;
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 575.98px) {
+	.form-content {
+		.container {
+			width: 95%;
+			.wraper-form-content {
+				.form-content-block {
+					margin: 0 auto 30px auto;
+					.form-content-item:nth-child(1), .form-content-item:nth-child(2) {
+						.form-content-block-text {
+							width: 300px;
+						}
+					}
+					.form-content-item:nth-child(3) {
+						.form-content-block-text {
+							width: 400px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 426px) {
+	.form-content {
+		.container {
+			.wraper-form-content {
+				.form-content-block {
+					.form-content-item:nth-child(1), .form-content-item:nth-child(2) {
+						.form-content-block-text {
+							width: 250px;
+						}
+					}
+					.form-content-item:nth-child(3) {
+						.form-content-block-text {
+							width: 350px;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 376px) {
+	.form-content {
+		.container {
+			.wraper-form-content {
+				.form-content-block {
+					.form-content-item:nth-child(1), .form-content-item:nth-child(2) {
+						.form-content-block-text {
+							width: 200px;
+						}
+					}
+					.form-content-item:nth-child(3) {
+						.form-content-block-text {
+							width: 300px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

@@ -3,7 +3,6 @@ import './scss/partnersContent.scss';
 import React from 'react';
 import { PartnersLogoItems } from './partnersLogoItems';
 
-
 export class PartnersContent extends React.Component {
     constructor() {
         super();
@@ -18,20 +17,24 @@ export class PartnersContent extends React.Component {
     }
     render() {
         return (
-            <div className="container">
-                <div className="wraper-partners-content">
-                    <div className="partners-text">
-                        <p className="partners-paragraph">
-                            Оказываем юридические услуги юридическим лицам и индивидуальным предпринимателям.<br /> Специализируемся в области хозяйственного права, работаем на всей территории Республики<br />Беларусь, а также за ее пределами, с бизнесом любого масштаба.
+            <div className="partners">
+                <div className="container">
+                    <div className="wraper-partners">
+                    <div className="wraper-partners-content">
+                        <div className="partners-text">
+                            <p className="partners-paragraph">
+                                Оказываем юридические услуги юридическим лицам и индивидуальным предпринимателям.<br /> Специализируемся в области хозяйственного права, работаем на всей территории Республики<br />Беларусь, а также за ее пределами, с бизнесом любого масштаба.
                             </p>
+                        </div>
+                        <button className="btn btn-partners">Наши партнеры</button>
                     </div>
-                    <button className="btn btn-partners">Наши партнеры</button>
-                </div>
-                <div className="wraper-partners">
-                    <div className="partners-logo">
-                        {PartnersLogoItems.map((item) => (
-                            <i key={item.id}><img src={item.src} alt={item.alt}/></i>
-                        ))}
+                    <div className="wraper-partners-logo">
+                        <div className="partners-logo">
+                            {PartnersLogoItems.map((item) => (
+                                <i key={item.id}><img src={item.src} alt={item.alt} /></i>
+                            ))}
+                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
