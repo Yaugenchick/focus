@@ -38,7 +38,7 @@
 @media (max-width: 1024px) {
 	.block-directions {
 		background: #e5e5e5;
-		padding: 50px 0 0 0;
+		padding: 50px 0;
 		.container {
 			.block-directions-wraper {
 				display: grid;
@@ -85,6 +85,15 @@
 }
 @media (max-width: 575.98px) {
 	.block-directions {
+		padding: 30px 0;
+		.container {
+			width: 95%;
+		}
+	}
+}
+@media (max-width: 450px) {
+	.block-directions {
+		padding: 30px 0 0 0;
 		.container {
 			width: 95%;
 		}

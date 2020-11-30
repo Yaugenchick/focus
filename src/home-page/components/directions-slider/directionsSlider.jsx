@@ -43,16 +43,16 @@ export class DirectionsSlider extends React.Component {
 									key={item.id}
 									style={{
 										background: `url(${item.url})`,
-										backgroundSize: "cover",
+										backgroundSize: "contain",
 										backgroundRepeat: "no-repeat"
 									}}>
 								</div>
 								: null
 						))}
+						<button className="arrow arrow-directions-next" onClick={this.nextSlide}>&rsaquo;</button>
+						<button className="arrow arrow-directions-prew" onClick={this.prewSlide}>&lsaquo;</button>
 					</div>
 				</div>
-				<button className="arrow arrow-directions-next" onClick={this.nextSlide}>&rsaquo;</button>
-				<button className="arrow arrow-directions-prew" onClick={this.prewSlide}>&lsaquo;</button>
 			</div>
 		)
 	}

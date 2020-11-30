@@ -1,6 +1,6 @@
 .about-home-page {
   background: #e5e5e5;
-  margin: -60px 0 0 0;
+  margin: -80px 0 0 0;
   .container {
     .wraper-about {
       display: grid;
@@ -37,6 +37,8 @@
 }
 @media (max-width: 1110px) {
   .about-home-page {
+    margin: 0;
+    padding: 40px 0 0 0 ;
     .container {
       .wraper-about {
         grid-template-rows: repeat(3, 1fr);
@@ -48,13 +50,13 @@
           position: relative;
         }
         .about-item:nth-child(1)::after {
-          content: ''; 
-					position: absolute;
-					top: 0;
-					left: 0;
-					border: 25px solid transparent;
-					border-top: 25px solid  #DEC377;
-					border-left: 25px solid  #DEC377;
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 25px solid transparent;
+          border-top: 25px solid #dec377;
+          border-left: 25px solid #dec377;
         }
         .about-item:nth-child(2) {
           grid-row: 2/3;
@@ -62,13 +64,13 @@
           position: relative;
         }
         .about-item:nth-child(2)::after {
-          content: ''; 
-					position: absolute;
-					top: 0;
-					left: 0;
-					border: 25px solid transparent;
-					border-top: 25px solid  #DEC377;
-					border-left: 25px solid  #DEC377;
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 25px solid transparent;
+          border-top: 25px solid #dec377;
+          border-left: 25px solid #dec377;
         }
         .about-item:nth-child(3) {
           grid-row: 2/3;
@@ -76,13 +78,13 @@
           position: relative;
         }
         .about-item:nth-child(3)::after {
-          content: ''; 
-					position: absolute;
-					top: 0;
-					left: 0;
-					border: 25px solid transparent;
-					border-top: 25px solid  #DEC377;
-					border-left: 25px solid  #DEC377;
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 25px solid transparent;
+          border-top: 25px solid #dec377;
+          border-left: 25px solid #dec377;
         }
         .about-item:nth-child(4) {
           grid-row: 3/4;
@@ -90,13 +92,13 @@
           position: relative;
         }
         .about-item:nth-child(4)::after {
-          content: ''; 
-					position: absolute;
-					top: 0;
-					left: 0;
-					border: 25px solid transparent;
-					border-top: 25px solid  #DEC377;
-					border-left: 25px solid  #DEC377;
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          border: 25px solid transparent;
+          border-top: 25px solid #dec377;
+          border-left: 25px solid #dec377;
         }
         .about-item {
           flex-direction: row;
@@ -153,6 +155,11 @@
         }
       }
     }
+  }
+}
+@media (max-width: 600px) {
+  .about-home-page {
+    padding: 20px 0 0 0;
   }
 }
 @media (max-width: 575.98px) {
