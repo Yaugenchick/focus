@@ -10,11 +10,13 @@ export class MainSlider extends React.Component {
         this.state = {
             mainContent: [],
             activeIndex: 0,
+            vw: 0
         }
     }
     componentDidMount() {
         this.setState(() => ({
-            mainContent: DataMain
+            mainContent: DataMain,
+            vw: window.innerWidth
         }))
     }
     setSlide(slide) {
@@ -33,7 +35,7 @@ export class MainSlider extends React.Component {
         this.setSlide(slide);
     }
     render() {
-        let { mainContent, activeIndex } = this.state;
+        let { mainContent, activeIndex, vw } = this.state;
         return (
             <div className="main">
                 {mainContent.map((item, slide) => (
@@ -43,7 +45,9 @@ export class MainSlider extends React.Component {
                             style={{
                                 background: `url(${item.url})`,
                                 backgroundRepeat: "no-repeat",
-                                backgroundSize: "contain"
+                                backgroundSize: "cover",
+                                backgroundPosition: `${vw > 600 ? '0% 0%' :
+                                '70% 0%'}`
                             }}>
                             <div className="container">
                                 <div className="main-content">

@@ -27,7 +27,7 @@ export const Home = () => {
 			<DirctionsHomePage/>
 			<BlockDirectionsContent/>
 			<DirectionsSlider/>
-			{/*<ReviewsSlider/>*/}
+			<ReviewsSlider/>
 			<PartnersContent/>
 			<Prime/>
 			<BgPancel/>
@@ -38,5 +38,5 @@ export const Home = () => {
 			<CostServices/>
 			<Contacts/>
 		</Fragment>
-	)
+	);
 }

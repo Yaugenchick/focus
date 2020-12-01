@@ -293,27 +293,27 @@
 		.wraper-main {
 			.container {
 				.main-content {
-					grid-template: 310px / repeat(10, 1fr);
+					grid-template: 350px / repeat(10, 1fr);
 					.main-title {
-						top: 10%;
+						top: 27%;
 						.main-header {
 							font-size: 20px;
 							margin: 0 0 20px 0;
 						}
 					}
 					.main-paragraph {
-						top: 35%;
+						top: 45%;
 					}
 					.btn-main {
 						bottom: 10%;
 					}
 					.arrow-main-next {
-						left: 90%;
-						bottom: 12%;
+						left: 55%;
+						bottom: -12%;
 					}
 					.arrow-main-prew {
-						left: 80%;
-						bottom: 12%;
+						left: 45%;
+						bottom: -12%;
 					}
 				}
 			}
@@ -337,27 +337,28 @@
 		.wraper-main {
 			.container {
 				.main-content {
-					grid-template: 270px / repeat(10, 1fr);
+					grid-template: 290px / repeat(10, 1fr);
 					.main-title {
-						top: 15%;
+						top: 35%;
+						grid-column: 1/8;
 						.main-header {
 							font-size: 20px;
 							margin: 0 0 20px 0;
 						}
 					}
 					.main-paragraph {
-						display: none;
+						top: 45%;
 					}
 					.btn-main {
 						bottom: 10%;
 					}
 					.arrow-main-next {
-						left: 90%;
-						bottom: 12%;
+						left: 55%;
+						bottom: -13%;
 					}
 					.arrow-main-prew {
-						left: 80%;
-						bottom: 12%;
+						left: 45%;
+						bottom: -13%;
 					}
 				}
 			}
@@ -369,7 +370,17 @@
 		.wraper-main {
 			.container {
 				.main-content {
-					grid-template: 250px / repeat(10, 1fr);
+					grid-template: 290px / repeat(10, 1fr);
+					.main-title {
+						grid-column: 1/7;
+						top: 25%;
+					}
+					.arrow-main-next {
+						bottom: -14%;
+					}
+					.arrow-main-prew {
+						bottom: -14%;
+					}
 				}
 			}
 		}
@@ -380,7 +391,7 @@
 		.wraper-main {
 			.container {
 				.main-content {
-					grid-template: 235px / repeat(10, 1fr);
+					grid-template: 290px / repeat(10, 1fr);
 				}
 			}
 		}
@@ -391,7 +402,7 @@
 		.wraper-main {
 			.container {
 				.main-content {
-					grid-template: 230px / repeat(10, 1fr);
+					grid-template: 290px / repeat(10, 1fr);
 				}
 			}
 		}
@@ -402,7 +413,22 @@
 		.wraper-main {
 			.container {
 				.main-content {
-					grid-template: 210px / repeat(10, 1fr);
+					grid-template: 330px / repeat(10, 1fr);
+					.main-title {
+						grid-column: 1/6;
+					}
+					.main-paragraph {
+						top: 50%;
+					}
+					.btn-main {
+						bottom: 5%;
+					}
+					.arrow-main-next {
+						bottom: -11%;
+					}
+					.arrow-main-prew {
+						bottom: -11%;
+					}
 				}
 			}
 		}
