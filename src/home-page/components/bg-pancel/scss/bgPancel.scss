@@ -1,11 +1,44 @@
-@media (max-width: 1440px) {
+.wraper-bg-pancel {
+	background: #e5e5e5;
+	.bg-pancel {
+		background: url(../img/bg-pancel.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 127px;
+	}
+}
+@media (max-width: 1270px) {
 	.wraper-bg-pancel {
-		background: #e5e5e5;
 		.bg-pancel {
-			background: url(../img/bg-pancel.png);
-			background-size: contain;
-			background-repeat: no-repeat;
-			height: 127px;
+			background-position: -80px 0;
+		}
+	}
+}
+@media (max-width: 1120px) {
+	.wraper-bg-pancel {
+		.bg-pancel {
+			background-position: -180px 0;
+		}
+	}
+}
+@media (max-width: 1020px) {
+	.wraper-bg-pancel {
+		.bg-pancel {
+			background-position: -230px 0;
+		}
+	}
+}
+@media (max-width: 860px) {
+	.wraper-bg-pancel {
+		.bg-pancel {
+			background-position: -330px 0;
+		}
+	}
+}
+@media (max-width: 768px) {
+	.wraper-bg-pancel {
+		.bg-pancel {
+			background-position: -380px 0;
 		}
 	}
 }
