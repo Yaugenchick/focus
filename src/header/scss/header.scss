@@ -13,7 +13,7 @@
 			  .lang-ru {
 					width: 100px;
 					font-weight: normal;
-					font-size: 16px;
+					font-size: 14px;
 					color: rgba(0, 0, 0, 0.8);
 			  	}
 			}
@@ -22,14 +22,14 @@
 			  	.lang-eng {
 					width: 100px;
 					font-weight: normal;
-					font-size: 16px;
+					font-size: 14px;
 					color: rgba(0, 0, 0, 0.8);
 			  	}
 			}
 		  	.btn-arrow-lang {
 			  	border: none;
 			  	background: transparent;
-			  	margin: 0 0 0 5px;
+			  	margin: 0 0 0 4px;
 			  	cursor: pointer;
 		  	}
 		  	.btn-arrow-lang:focus {
@@ -71,7 +71,7 @@
 				grid-template-columns: repeat(12, 1fr);
 			  }
 			  .change-language {
-				grid-column: 1/5;
+				grid-column: 1/6;
 			  }
 			  .eye {
 				display: none;
