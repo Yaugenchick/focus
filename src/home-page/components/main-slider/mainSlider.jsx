@@ -47,7 +47,7 @@ export class MainSlider extends React.Component {
                                 backgroundRepeat: "no-repeat",
                                 backgroundSize: "cover",
                                 backgroundPosition: `${vw > 600 ? '0% 0%' :
-                                '70% 0%'}`
+                                '72% 0%'}`
                             }}>
                             <div className="container">
                                 <div className="main-content">
