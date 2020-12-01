@@ -11,11 +11,20 @@ export class ReviewsSlider extends React.Component {
 			vw: 0
 		}
 	}
+    updateScreenDevise = () => {
+        this.setState(() => ({
+            vw: window.innerWidth
+        }))
+    }
 	componentDidMount() {
 		this.setState(() => ({
 			vw: window.innerWidth
 		}))
+		window.addEventListener('resize', this.updateScreenDevise);
 	}
+	componentWillUnmount() {
+        window.removeEventListener('resize', this.updateScreenDevise);
+    }
 	render() {
 		let {vw} = this.state
 		return(
